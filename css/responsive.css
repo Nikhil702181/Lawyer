@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and ( max-width: 1280px ) {
+}
+@media only screen and ( max-width: 1024px ) {
+     .topnav .navwrap .tpcont a.header-btn2{display:none;}
+     .bannersec .captionwrap .caption{width: 65%}
+     .aboutsec .aboutwrap{justify-content: space-between;}
+     .aboutsec .aboutwrap .imgbox{margin-left: 0;width: 38%}
+/*     .aboutsec .aboutwrap .imgbox .exp-cap{width: 42%;height: 27%}*/
+     .aboutsec .aboutwrap .abtdtl{margin-left: 0;width: 50%}
+     .practicearea .prctwrap .prct-list{width: 100%}
+     .practicearea .prctwrap .queryform{width: 100%;margin-top: 5%;padding: 0 2%}
+     .testimonial .clients{width: 63%;flex: 0 0 auto;}
+     .testimonial .testcaption p{font-size: 20px}
+     .news-sec .newswrapper{padding: 0 3%}
+     .news-sec .newswrapper .news{width: 50%;}
+     .news-sec .newswrapper .news1{margin-left: 0}
+     .blogpostwraper .left .reveiw-top .author .authorimg{width: 35%}
+     .cntpgfrm .cnt-pg-wrap .other-dtl{width: 33%;margin-left: 0;margin: 0 auto;}
+
+}
+@media only screen and ( max-width: 980px ) {
+     .bannersec .captionwrap{width: 80%}
+     .bannersec .captionwrap .caption h1{font-size: 50px}
+     .slider .container{max-width: 65%}
+     .testimonial .clients{margin: 0 auto;}
+     .consultant .consult-img{margin: 0 auto;}
+     .consultant .consultcon{margin: 3% auto 2%;}
+     .bannersec .captionwrap .caption{width: 80%}
+     .practicepage .bannersec .captionwrap .caption{width: 80%}
+     .aboutpage .bannersec .captionwrap .caption{width: 80%}
+     .blogpage .bannersec .captionwrap .caption{width: 80%}
+     .contactpage .bannersec .captionwrap .caption{width: 80%}
+     .practicearea .container{width: 85%}
+     .blogpage .blogpost .container{width: 75%;margin: 0 auto;}
+     .blogpage .blogpost .blogpostwraper .left{width: 100%;margin: 0 auto;}
+     .blogpage .blogpost .blogpostwraper .right{width: 100%;margin: 0 auto;padding: 0 30px}
+     .blogpostwraper .right .recent li .recentimg{width: unset;}
+     .contactpage .cntpgfrm .container{max-width: 80%;margin: 0 auto;}
+     .cntpgfrm .cnt-pg-wrap .form-sec{width: 100%}
+     .cntpgfrm .cnt-pg-wrap .other-dtl{width: 100%;margin-top: 5%}
+
+}
+@media only screen and ( max-width: 800px ) {
+     #pre-loader{background-size: 10%}
+     .topnav .navwrap{padding: 15px 0;position: relative;}
+     .hamburger{display:block;position: absolute;right: 30px;bottom:-60px;z-index: 1;padding: 5px 20px;background: #000}
+     .topnav .navwrap .logo-nav-wrap .nav{display: none;background:#fff;position: absolute;right:-16px;bottom: -399px;z-index: 1;width: 105%;animation: faderight 1s ease-in-out;}
+     .topnav .navwrap .logo-nav-wrap .nav li{display: block;}
+     .topnav .navwrap .logo-nav-wrap .nav li a.drops{position: relative;}
+     .topnav .navwrap .logo-nav-wrap .nav li a.drops::before{position: absolute;content:'';background: url('../images/drop.png')no-repeat;width: 20px;height:11px;right: 5%;top:50%;transform: translateY(-50%);}
+     .topnav .navwrap .logo-nav-wrap .nav li a::after{display: none;}
+      @keyframes faderight {
+      from {opacity: 0;transform: translateX(50%);}
+      to {opacity: 1;transform: translateX(0);}}
+     .topnav .navwrap .logo-nav-wrap .nav li.drpdwn:hover ul.drop {box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);width: 100%;}
+     .bannersec{padding: 132px 0}
+     .bannersec.captionwrap .caption{width: 100%}
+     .aboutsec .aboutwrap .imgbox{width: 60%;margin: 0 auto;}
+     .aboutsec .aboutwrap .abtdtl{width: 100%;margin: 10% auto 0;}
+     .news-sec .newswrapper .new-txt{width: 95%}
+     .blogpage .blogpost .container{width: 95%}
+     .contactpage .map .container{width: 90%}
+     .contactpage .cntpgfrm .container{max-width: 90%}
+}
+@media only screen and ( max-width: 768px ) {
+     .bannersec .captionwrap .caption h1{font-size: 35px}
+     .bannersec .captionwrap .caption h1 span{display: block;}
+     .bannersec .captionwrap .caption p{font-size: 18px}
+     .bannersec{padding: 93px 0}
+     .footer .btmftr{width: 80%}
+     .footer .btmftr .cta{display: none;}
+     .footer .comdtl{width: 80%}
+}
+@media only screen and ( max-width: 736px ) {
+     .aboutsec .aboutwrap .imgbox{width: 65%}
+     .news-sec .newswrapper{margin-top: 0}
+     .news-sec .newswrapper .news{width: 100%;margin:50px auto 0;}
+     .news-sec .newswrapper .new-txt{box-shadow: 20px 20px 50px -41px rgba(0,0,0,0.75);}
+}
+@media only screen and ( max-width: 667px ) {
+     .testimonial .testcaption h2{font-size: 40px}
+     .consultant .consultcon h3{font-size: 18px}
+     .consultant .consultcon a{font-size: 15px}
+     .footer .comdtl .btm-nav li a{padding: 25px 0}
+}
+@media only screen and ( max-width: 640px ) {
+}
+@media only screen and ( max-width: 600px ) {
+     .header .stripwrap li a{font-size: 12px}
+     .bannersec .captionwrap .caption{width: 90%}
+     .aboutsec{padding: 90px 0}
+     .aboutsec .aboutwrap .imgbox{width: 80%}
+     .testimonial{padding: 80px 20px}
+     .testimonial .clients{width: 100%}
+     .practicepage .bannersec .captionwrap .caption{width: 90%}
+     .aboutpage .bannersec .captionwrap .caption{width: 90%}
+     .blogpage .bannersec .captionwrap .caption{width: 90%}
+     .contactpage .bannersec .captionwrap .caption{width: 90%}
+}
+@media only screen and ( max-width: 568px ) {
+     .header .stripwrap li.loc{display: none;}
+     .aboutsec .aboutwrap .imgbox{width: auto;}
+     .practicearea .prctwrap .prct-list li{width: 100%;}
+     .practicearea .prctwrap .prct-list li+li{margin-top: 20px}
+     .consultant .consultcon h3{font-size: 15px}
+     .consultant .consultcon a{padding: 10px 24px 10px 40px}
+     .consultant .consultcon a:after{left: 10px}
+     .footer .comdtl .btm-nav li a{font-size: 15px}
+     .footer .comdtl{width: 95%}
+     .footer .btmftr{width: 95%}
+}
+@media only screen and ( max-width: 480px ) {
+     .bannersec .captionwrap{width: 100%}
+     .bannersec .captionwrap .caption h1{font-size: 30px;}
+     .aboutsec {padding: 50px 0}
+     .news-sec .heading h2{font-size: 35px}
+     .news-sec .heading p{margin: 30px 10px 15px }
+     .consultant .consult-img{margin: 0}
+     .consultant .consultcon h3{margin: 20px 0}
+     .blogpostwraper .left .reveiw-top .author .authorimg{width: 70%}
+}
+@media only screen and ( max-width: 414px ) {
+     .topnav .navwrap .tpcont a.btn_2{display: none;}
+     .hamburger{bottom: unset;right: 0}
+     .aboutsec .aboutwrap .imgbox .exp-cap{width: 33%;height: 31%;right: 0;left: 0}
+     .aboutsec .aboutwrap .abtdtl{margin-top: 15%}
+     .slider .container{margin-right: -3%}
+     .testimonial .item{padding: 0}
+     .testimonial .testcaption h2:before{display: none;}
+     .consultant .consult-img h2{font-size: 20px}
+     .blogpostwraper .left .commentsec li .userdtl li.date{display: none;}
+}
+@media only screen and ( max-width: 384px ) { 
+     .footer .btmftr{justify-content: center;}
+     .topnav .navwrap .logo-nav-wrap .nav{width: 108%}
+     .footer .btmftr .aptbtn {margin-top: 5%}
+     .blogpostwraper .left .addcmtform form li ul li.name,.email{width: 100%}
+     .cntpgfrm .cnt-pg-wrap .form-sec form li ul li.name, .email{width: 100%}
+     .blogpostwraper .left .addcmtform form li ul li+li{margin-top: 30px}
+     .cntpgfrm .cnt-pg-wrap .form-sec form li ul li+li{margin-top: 30px}
+     .contactpage .map .mapframe{padding: 0}
+     .contactpage .map .mapframe iframe{height: 345px}
+     .header{display: none;}
+}
+/*@media only screen and ( max-width: 375px ) {
+}
+@media only screen and ( max-width: 360px ) {
+}
+@media only screen and ( max-width: 320px ) {
+
+}
+*/
